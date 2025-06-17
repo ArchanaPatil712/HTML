@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <h1><u> REGISTRATION FORM</u></h1>
+            Enter the first name : <input type="text" placeholder="First name"><br><br>
+            Enter the last name : <input type="text" placeholder="Last name"><br><br>
+            Enter the phone number : <input type="tel" maxlength="10" placeholder="+91"><br><br>
+            Enter the gender : <input type="radio" name="gen">Male <input type="radio" name="gen">Female<br><br>
+            Enter the mail id : <input type="email" placeholder="Email"><br><br>
+            Enter the password : <input type="password" placeholder="password"><br><br>
+            Select the course : <select>
+                <option>Python</option>
+                <option>AI</option>
+                <option>Web development</option>
+            </select><br><br>
+            <img src="https://lh3.googleusercontent.com/_M14NRTYPPQYgdKReeicOfwYJfHI-USHThCxb3buQ8dKJ_XBIjR1lnzdLQ3vjYrDVdOn79de6u_JkxB0D44hBrZ88olRx1fU8QIe7Cq_VzxUWalNeQ=w1440-l80-sg-rj-c0xffffff" width="300px">     
+        </form>
+    </body>
+</html>
