@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="external.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<p>
+    Our mission is to <span>organize</span> the world’s <span id="a">information</span> and make it <span id="b">universally accessible </span>and <span id="c">useful.</span></p>
+
+   <div class="box">
+     <img src="https://lh3.googleusercontent.com/3vbmf-fE3hNTz_sGEcwIXWDO025BKBEfKgf8kLwMUqsTGFJNuEsBevc5aoUDXs0LeGQuxV3I55z3JelOJRYTxKzdoTWPoueELAx2WWZ-b-XO5vK1VQ?=w1440" width="200px">
+   </div>
+   <div class="form">
+        <p >Instagram</p>
+   </div>
+   <!-- <div align="center">-->
+<h1>asdfbgn</h1>
+<h2>asdvfb</h2>
+<h3>asdvfbn</h3>
+</div> 
+</body>
+</html>
+<style>
+#external css
+p{
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    color: #4285f4;
+}
+#a{
+    color: #ea4335;
+}
+#b{
+    color: #34a853;
+}
+#c{
+    color: #e37400;
+}
+.box{
+    width:200px;
+    height:200px;
+    border:solid 0.5px  rgb(209, 208, 208);
+    text-align: center;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+img{
+    /* border-radius: 10px 10px 0px 0px ; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box:hover{
+    border:solid 2px blue;
+}
+.form{
+    width:400px;
+    height:450px;
+    border:solid 0.5px grey
+}
+p{
+     font-family: "Grand Hotel", serif;
+     font-size: 40px;
+     font-weight: 700;
+}
+</style>
